@@ -1,19 +1,11 @@
-/*! HTML5 Boilerplate v5.0.0 | MIT License | http://h5bp.com/ */
-
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
 
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    background:#99baef;
+    background: radial-gradient(#99baef,#8fdb8a);
+
 }
 
 /*
@@ -32,19 +24,6 @@ html {
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
 }
 
 
@@ -98,12 +77,16 @@ textarea {
    ========================================================================== */
 *{
 /*  background-color:#e537df; */
-  background-color:#1c3051;
-  font-family: "Lucida Console", Monaco, monospace;
+  /*background-color:#1c3051;*/
+/*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Roboto Slab', serif;
+
   color:#d6e5ff;
   font-size:40px;
   text-align:center;
+
 }
+
 
 a{
   text-decoration:none;
@@ -117,14 +100,17 @@ a{
   margin:10px 30px 10px 30px;
   padding:10px 30px 10px 30px;
   border:white solid 1px;
-  background-color:purple;
+  background-color:#eabbf9;
   border-radius:5px;
-}
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+
+/*}
 .description,.itsbookname{
   font-size:20px;
   padding: 20px 20px 0px 20px;
   line-height:200%;
-};
+};*/
 
 #titlehead{
 margin: 50px;
@@ -136,15 +122,6 @@ padding: 50px;
     margin-left: 40px;
     margin-right:40px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
