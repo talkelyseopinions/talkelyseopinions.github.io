@@ -1,15 +1,16 @@
+
 *{
   font-family: 'Josefin Sans', sans-serif;
   /*font-family: 'Roboto Slab', serif;*/
   color:#d6e5ff;
-  font-size:40px;
+  font-size:120%;
   text-align:center;
 
 }
 
 html {
     color: #222;
-    font-size: 1em;
+    /*font-size: 1em;*/
     line-height: 1.4;
     background:#99baef;
     background: radial-gradient(#99baef,#8fdb8a);
@@ -19,7 +20,7 @@ html {
 
 a{
   text-decoration:none;
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 
 }
 #buttondiv{
@@ -27,28 +28,21 @@ a{
 }
 
 #button{
-  display:inline;
+  display:inline-block;
   margin:10px 30px 10px 30px;
   padding:10px 30px 10px 30px;
   border:white solid 1px;
   background-color:#eabbf9;
   border-radius:5px;
   cursor: pointer;
+  /*width:50%;*/
+  /*white-space: nowrap*/
+
 }
-/*}
-.description,.itsbookname{
-  font-size:20px;
-  padding: 20px 20px 0px 20px;
-  line-height:200%;
-};*/
-
-/*#titlehead{
-margin: 50px;
-padding: 50px;
-}*/
-
 
 #bookname{
     margin-left: 40px;
     margin-right:40px;
 }
+
+
